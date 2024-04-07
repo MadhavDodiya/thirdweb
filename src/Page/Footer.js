@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 export default function Footer() {
   return (
     <div>
@@ -19,7 +18,7 @@ export default function Footer() {
         <div className='col-md-4'>
             <div className='container-fluid p-5'>
             <center>
-                <img src='img/Logo-96x19.png'/>
+                <img src='img/logo-green.svg'/>
             </center>
             </div>
         </div>

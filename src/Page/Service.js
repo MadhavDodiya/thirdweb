@@ -1,10 +1,15 @@
 import React from 'react'
-import Footer from './Footer'
+import Footer from './Footer';
 
-export default function Service() {
+export default function Service(props) {
   return (
     <div>
       
+
+
+
+
+
 
 
 

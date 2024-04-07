@@ -3,9 +3,9 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-sm">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
   <div className="container">
-    <a className="navbar-brand p-2" href="#"><img src='img/Logo-96x19.png'/></a>
+    <a className="navbar-brand p-2" href="#"><img src='img/logo-white.svg'/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -27,6 +27,7 @@ const Layout = () => {
     </div>
   </div>
 </nav>
+
       <Outlet />
     </>
   )
