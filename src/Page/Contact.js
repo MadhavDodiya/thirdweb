@@ -59,6 +59,36 @@ export default function Contact() {
         </div>
       </div>
 
+      <div className='container-fluid p-5 mt-5' style={{background:"#f6f8f5"}}>
+        <div className='container'>
+          <h1 className='text-center text-success'>
+          We are optimists who love to<br/> work together
+          </h1>
+        </div>
+      </div>
+
+      <div className='container-fluid' style={{background:"#f6f8f5"}}>
+      <div className='container pt-5 pb-5' >
+        <div className='row'>
+          <div className='col-md-3'>
+            <img src='img/avatar_1.jpg' className='img-fluid'/>
+          </div>
+
+          <div className='col-md-3'>
+            <img src='img/avatar_2.jpg' className='img-fluid'/>
+          </div>
+
+          <div className='col-md-3'>
+            <img src='img/avatar_3.jpg' className='img-fluid'/>
+          </div>
+
+          <div className='col-md-3'>
+            <img src='img/avatar_4.jpg' className='img-fluid'/>
+          </div>
+        </div>
+      </div>
+      </div>
+      
       
       
       
