@@ -8,7 +8,41 @@
     background-image: url('../public/img/header-hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 600px;
     background-size: cover;
-
 }
+
+.bgimg2{
+    background-image: url('../public/img/footer-hero-big.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+.bgimg3{
+    background-image: url('../public/img/header-hero-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+.bgimg4{
+    background-image: url('../public/img/contact-hero-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+/* button */
+.btn1{padding: 15px 35px;background: #ffd936;border-radius: 5px;border: none;}
+.btn1:hover{padding: 15px 35px;background: #dab200;border-radius: 5px;border: none;transition: 0.5s;}
+
+.btn2{padding: 15px 35px;background: none;color: #536942;border-radius: 5px;border: 1px solid black;}
+.btn2:hover{padding: 15px 35px;background: none;color: #536942;border-radius: 5px;border: 1px solid #536942;transition: 0.5s;}
+
+.btn3{padding: 10px 15px;background: lightgreen;color: white;border-radius: 100%;border: none;margin: 10px;}
+.btn3:hover{padding: 10px 15px;background: green;color: white;border-radius: 100%;border: none;margin: 10px;transition: 0.5s;}
+

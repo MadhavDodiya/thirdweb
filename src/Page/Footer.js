@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
 
         <div className='col-md-4'>
-            <div className='container-fluid p-5'>
+            <div className='container-fluid p-4'>
             <center>
                 <img src='img/logo-green.svg'/>
             </center>

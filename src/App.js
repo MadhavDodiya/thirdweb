@@ -6,6 +6,8 @@ import Contact from './Page/Contact';
 import Layout from './Page/Layout';
 import Error from './Page/Error';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './index.css';
+import './App.css';
 
 export default function App() {
   return (
