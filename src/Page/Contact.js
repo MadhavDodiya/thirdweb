@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer';
+import { Form } from 'react-router-dom';
 
 export default function Contact() {
   return (
@@ -48,12 +49,14 @@ export default function Contact() {
             </div>
 
             <div className='container-fluid'>
-              <input type='text' placeholder='Your Name' style={{width:"90%",padding:"10px 5px",marginTop:"20px",border:"none",outline:"none"}}/>
-              <input type='text' placeholder='Your Name' style={{width:"90%",padding:"10px 5px",marginTop:"20px",border:"none",outline:"none"}}/>
-              <textarea type='massage' placeholder='Massage' style={{height:"100px",width:"90%",marginTop:"20px",padding:"10px 5px",border:"none",outline:"none"}}></textarea>
+              <form>
+              <input type='text' placeholder='Your Name' required style={{width:"90%",padding:"10px 5px",marginTop:"20px",border:"none",outline:"none"}}/>
+              <input type='text' placeholder='Your Name' required style={{width:"90%",padding:"10px 5px",marginTop:"20px",border:"none",outline:"none"}}/>
+              <textarea type='massage' placeholder='Massage' required style={{height:"100px",width:"90%",marginTop:"20px",padding:"10px 5px",border:"none",outline:"none"}}></textarea>
               <button className='btn1'>
                 Send Massage
               </button>
+              </form>
             </div>
           </div>
         </div>
